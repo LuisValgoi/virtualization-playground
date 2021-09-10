@@ -1098,7 +1098,7 @@
   dependencies:
     regenerator-runtime "^0.13.4"
 
-"@babel/runtime@^7.12.5", "@babel/runtime@^7.9.2":
+"@babel/runtime@^7.12.5", "@babel/runtime@^7.15.4", "@babel/runtime@^7.9.2":
   version "7.15.4"
   resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.15.4.tgz#fd17d16bfdf878e6dd02d19753a39fa8a8d9c84a"
   integrity sha512-99catp6bHCaxr4sJ/DbTGgHS4+Rs2RVd2g7iOap6SLGPDknRK9ztKNsE/Fg6QhSeh1FGE5f6gHGQmvvn3I3xhw==
@@ -9012,6 +9012,13 @@ react-app-polyfill@^2.0.0:
     raf "^3.4.1"
     regenerator-runtime "^0.13.7"
     whatwg-fetch "^3.4.1"
+
+react-cool-virtual@^0.5.3:
+  version "0.5.3"
+  resolved "https://registry.yarnpkg.com/react-cool-virtual/-/react-cool-virtual-0.5.3.tgz#ed62104d3b977840c0414e20484c66f82ff62a36"
+  integrity sha512-zrptpEMgVDXHeb5CuXx0pzYb8EFkkGXDSMGJHUpGBaP+9W5bX40l32vjjKfvdwWGYbTlvOnTRddBaDlXL17qBg==
+  dependencies:
+    "@babel/runtime" "^7.15.4"
 
 react-dev-utils@^11.0.3:
   version "11.0.4"
