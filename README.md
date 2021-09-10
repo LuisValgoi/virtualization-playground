@@ -8,7 +8,7 @@ This project was created to better understand more the virtualization engine `re
 - Typescript
 - React Cool Virtual
 
-### REFERENCE
+# REFERENCE
 
 [https://blog.logrocket.com/how-to-virtualize-large-lists-using-react-window/](https://blog.logrocket.com/how-to-virtualize-large-lists-using-react-window/)
 
@@ -20,25 +20,29 @@ This project was created to better understand more the virtualization engine `re
 
 [https://github.com/wellyshen/react-cool-virtual](https://github.com/wellyshen/react-cool-virtual)
 
-### WHAT IS
+[https://blog.logrocket.com/virtual-scrolling-core-principles-and-basic-implementation-in-react/](https://blog.logrocket.com/virtual-scrolling-core-principles-and-basic-implementation-in-react/)
+
+# WHAT IS
 
 - rendering concept that focuses on tracking the user’s position and only committing what is visually relevant to the DOM in any given scroll position.
 - It provides us with all the benefits of pagination along with the UX of infinite scrolling.
 
-### BENEFITS
+# BENEFITS
 
 - you don't need to pay the cost of thousands of rows of data being rendered at once
 
-### HOW TO CALCULATE
+# HOW TO CALCULATE
 
 - We pre-calculate the total height of our list using the dimensions of the given list items
 - and multiplying it by the count of our list items.
 - then, we position the items to create a list that the user can scroll through.
 
-### HOW IT WORKS
+# HOW IT WORKS
 
 Infinite Scroll
 
 ![image](https://user-images.githubusercontent.com/8363610/132918474-4ef744cc-e9a5-4fb8-9238-c74d3644f464.png)
+
+# HOW IT WORKS ANIMATED
 
 ![image](https://blog.logrocket.com/wp-content/uploads/2020/02/virtual-scrolling-initial-state-change.gif)
